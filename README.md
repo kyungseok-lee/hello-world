@@ -1,70 +1,31 @@
-# AI Codegen Examples
+# hello world
 
-AI 코드 생성 예제
+## 🎯 프로젝트 소개
+이 프로젝트는 심심할 때마다 올라오는 다양한 코드들의 저장소입니다. 
+때로는 실험적인 코드, 때로는 재미있는 알고리즘, 때로는 그냥 심심해서 만든 코드들이 여기에 모입니다.
 
-## Supported Languages
+## 🌟 특징
+- 🎨 창의적인 코딩
+- 🎮 재미있는 알고리즘
+- 🧪 실험적인 프로젝트
+- 🎯 학습 목적의 코드
 
-이 문서는 다양한 언어에 대한 개발 환경 설정 예시를 제공합니다.  
-(추후 필요에 따라 TypeScript, Kotlin, Java 등의 설정 예시도 추가할 예정입니다.)
+## 💡 코딩 명언
+> "코딩은 컴퓨터에게 하는 것이 아니라, 다른 프로그래머에게 하는 것이다." - Robert C. Martin
 
-### Python
+## 🎮 재미있는 코딩 팩트
+- 최초의 컴퓨터 버그는 실제로 나방이었다고 합니다! 🦋
+- 첫 번째 컴퓨터 프로그래머는 여성이었다고 합니다! 👩‍💻
+- 파이썬이라는 이름은 'Monty Python'에서 따왔다고 합니다! 🐍
 
-#### Virtual Environment Setup
-
-아래 명령어들을 사용하여 Python 가상 환경을 설정하고, 필요한 패키지를 설치할 수 있습니다.
-
+## 🚀 시작하기
 ```bash
-# 가상 환경 생성
-python -m venv .venv
-
-# pip 업그레이드
-pip install --upgrade pip    # 또는: python -m pip install --upgrade pip
-
-# 필요한 패키지 설치 (예: pygame)
-pip install pygame           # 또는: python -m pip install pygame
-
-# 실행
-python main.py
+git clone https://github.com/yourusername/hello-world.git
+cd hello-world
 ```
 
-### Golang
+## 📝 라이선스
+이 프로젝트는 MIT 라이선스를 따릅니다.
 
-#### Environment Setup
-
-```bash
-go mod init spinning-hexagon-go
-
-# module 설치
-go mod tidy
-
-# 개별 module 설치 시
-go get github.com/hajimehoshi/ebiten/v2
-
-# 바로 실행
-go run main.go
-
-# build 후 실행
-go build -o spinning-hexagon-go
-./spinning-hexagon-go
-```
-
-### TypeScript
-
-#### Environment Setup
-
-현재 준비 중입니다.  
-곧 TypeScript 개발 환경 설정 예시를 추가할 예정입니다.
-
-### Kotlin
-
-#### Environment Setup
-
-현재 준비 중입니다.  
-곧 Kotlin 개발 환경 설정 예시를 추가할 예정입니다.
-
-### Java
-
-#### Environment Setup
-
-현재 준비 중입니다.  
-곧 Java 개발 환경 설정 예시를 추가할 예정입니다.
+---
+*이 저장소는 심심할 때마다 업데이트됩니다. 언제 업데이트될지는 아무도 모릅니다! 😉*
